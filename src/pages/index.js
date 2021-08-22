@@ -2,9 +2,7 @@ import * as React from 'react'
 import App from '../components/app'
 
 const IndexPage = () => {
-  return (
-    <App />
-  )
+  return <App />
 }
 
-export default IndexPage;
+export default IndexPage

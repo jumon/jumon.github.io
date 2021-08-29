@@ -1,13 +1,15 @@
 import * as React from 'react'
 import Box from '@material-ui/core/Box'
 import Typography from '@material-ui/core/Typography'
-import { StaticImage } from 'gatsby-plugin-image'
+// import Avatar from '@material-ui/core/Avatar'
+// import catImg from '../images/cat.jpg'
 
-const imageStyle = {
-  maxWidth: '80px',
-  margin: 'auto',
-  borderRadius: '50%'
-}
+// const imageStyle = {
+//   width: '80px',
+//   height: '80px',
+//   margin: 'auto'
+//   //   borderRadius: '50%'
+// }
 
 const About = () => {
   return (
@@ -28,7 +30,7 @@ const About = () => {
           </Box>
           <Box mt={2}>Email: jumon.nozaki[at]gmail.com</Box>
         </Typography>
-        <StaticImage style={imageStyle} alt="a cat outside" src="../images/cat.jpg" />
+        {/* <Avatar style={imageStyle} alt="a cat outside" src={catImg} /> */}
       </Box>
     </Box>
   )

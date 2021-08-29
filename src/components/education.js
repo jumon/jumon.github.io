@@ -1,21 +1,48 @@
 import * as React from 'react'
+import Box from '@material-ui/core/Box'
+import Typography from '@material-ui/core/Typography'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
+import Avatar from '@material-ui/core/Avatar'
+import SchoolIcon from '@material-ui/icons/School'
+import ListItemText from '@material-ui/core/ListItemText'
 
 const Education = () => {
   return (
-    <section>
-      <h2>Education</h2>
-      <p>Kyoto University, Kyoto, Japan (April 2021 - Present)</p>
-      <ul>
-        <li>Master of Computer Science</li>
-        <li>
-          <a href="http://sap.ist.i.kyoto-u.ac.jp/">Speech and Audio Processing Lab</a>
-        </li>
-      </ul>
-      <p>Kyoto University, Kyoto, Japan (April 2017 - March 2021)</p>
-      <ul>
-        <li>Bachelor of Computer Science</li>
-      </ul>
-    </section>
+    <Box p={1} m={1}>
+      <Box m={1}>
+        <Typography variant="h5" color="primary">
+          Education
+        </Typography>
+      </Box>
+      <Box m={1}>
+        <List>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <SchoolIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="Master of Computer Science, Kyoto University, Kyoto, Japan"
+              secondary="April 2021 - Present"
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <SchoolIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="Bachelor of Computer Science, Kyoto University, Kyoto, Japan"
+              secondary="April 2017 - March 2021"
+            />
+          </ListItem>
+        </List>
+      </Box>
+    </Box>
   )
 }
 

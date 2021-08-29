@@ -1,23 +1,59 @@
 import * as React from 'react'
+import Box from '@material-ui/core/Box'
+import Typography from '@material-ui/core/Typography'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
+import Avatar from '@material-ui/core/Avatar'
+import WorkIcon from '@material-ui/icons/Work'
+import ListItemText from '@material-ui/core/ListItemText'
 
 const Internship = () => {
   return (
-    <section>
-      <h2>Internships</h2>
-      <p>Mercari, Inc. (August 2021 - September 2021)</p>
-      <ul>
-        <li>EdgeAI-Team</li>
-      </ul>
-      <p>LINE Corporation (December 2019 - Present)</p>
-      <ul>
-        <li>Research & Engineering Internship</li>
-        <li>Worked on research projects about non-autoregressive ASR</li>
-      </ul>
-      <p>Hacarus Inc. (October 2018 - December 2019)</p>
-      <ul>
-        <li>Anomaly Detection for images and time series data</li>
-      </ul>
-    </section>
+    <Box p={1} m={1}>
+      <Box m={1}>
+        <Typography variant="h5" color="primary">
+          Internships
+        </Typography>
+      </Box>
+      <Box m={1}>
+        <List>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <WorkIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="Mercari, Inc."
+              secondary="August 2021 - September 2021. EdgeAI-Team."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <WorkIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="LINE Corporation"
+              secondary="December 2019 - Present. Research & Engineering Internship. Worked on non-autoregressive ASR."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <WorkIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="Hacarus Inc."
+              secondary="October 2018 - December 2019. Anomaly Detection for images and time series data."
+            />
+          </ListItem>
+        </List>
+      </Box>
+    </Box>
   )
 }
 

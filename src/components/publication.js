@@ -13,6 +13,18 @@ const Publication = () => {
       <Box m={2}>
         <Box mt={2} mb={3}>
           <Typography variant="subtitle1">
+            A COMPARATIVE STUDY ON NON-AUTOREGRESSIVE MODELINGS FOR SPEECH-TO-TEXT GENERATION
+          </Typography>
+          <Box m={1}>
+            <Typography variant="body2" style={{ color: 'gray' }}>
+              Yosuke Higuchi, Nanxin Chen, Yuya Fujita, Hirofumi Inaguma, Tatsuya Komatsu, Jaesong
+              Lee, <u>Jumon Nozaki</u>, Tianzi Wang, Shinji Watanabe <br />
+              ASRU2021
+            </Typography>
+          </Box>
+        </Box>
+        <Box mt={3} mb={3}>
+          <Typography variant="subtitle1">
             Relaxing the Conditional Independence Assumption of CTC-based ASR by Conditioning on
             Intermediate Predictions
           </Typography>

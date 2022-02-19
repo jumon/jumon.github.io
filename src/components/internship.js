@@ -18,15 +18,15 @@ const Internship = () => {
       </Box>
       <Box m={1}>
         <List>
-          <ListItem>
+        <ListItem>
             <ListItemAvatar>
               <Avatar>
                 <WorkIcon />
               </Avatar>
             </ListItemAvatar>
             <ListItemText
-              primary="Mercari, Inc."
-              secondary="August 2021 - September 2021. EdgeAI-Team."
+              primary="Amazon Japan"
+              secondary="February 2022 - March 2022. Software Development Engineer Intern"
             />
           </ListItem>
           <ListItem>
@@ -37,7 +37,18 @@ const Internship = () => {
             </ListItemAvatar>
             <ListItemText
               primary="LINE Corporation"
-              secondary="December 2019 - Present. Research & Engineering Internship. Worked on non-autoregressive ASR."
+              secondary="December 2019 - January 2022. Research & Engineering Internship. Worked on non-autoregressive ASR."
+            />
+          </ListItem>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <WorkIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText
+              primary="Mercari, Inc."
+              secondary="August 2021 - September 2021. EdgeAI-Team."
             />
           </ListItem>
           <ListItem>

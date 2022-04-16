@@ -11,6 +11,21 @@ const Publication = () => {
         </Typography>
       </Box>
       <Box m={2}>
+        <Box mt={3} mb={3}>
+          <Typography variant="subtitle1">
+            会話音声から句読点付きテキストの End-to-End 認識 <br />
+            (An end-to-end model for conversational-speech-to-punctuated-text recognition)
+          </Typography>
+          <Box m={1}>
+            <Typography variant="body2" style={{ color: 'gray' }}>
+              <u>Jumon Nozaki</u>,Tatsuya Kawahara, Kenkichi Ishizuka, and Taiichi Hashimoto
+              <br />
+              第84回情報処理学会全国大会 <br />
+              (The 84rd National Convention of IPSJ) <br />
+              Student Award
+            </Typography>
+          </Box>
+        </Box>
         <Box mt={2} mb={3}>
           <Typography variant="subtitle1">
             A COMPARATIVE STUDY ON NON-AUTOREGRESSIVE MODELINGS FOR SPEECH-TO-TEXT GENERATION
@@ -19,7 +34,8 @@ const Publication = () => {
             <Typography variant="body2" style={{ color: 'gray' }}>
               Yosuke Higuchi, Nanxin Chen, Yuya Fujita, Hirofumi Inaguma, Tatsuya Komatsu, Jaesong
               Lee, <u>Jumon Nozaki</u>, Tianzi Wang, Shinji Watanabe <br />
-              ASRU2021
+              ASRU2021 <br />
+              <a href="https://arxiv.org/abs/2110.05249">[arXiv]</a>
             </Typography>
           </Box>
         </Box>
@@ -31,8 +47,7 @@ const Publication = () => {
           <Box m={1}>
             <Typography variant="body2" style={{ color: 'gray' }}>
               <u>Jumon Nozaki</u> and Tatsuya Komatsu <br />
-              INTERSPEECH2021
-              <br />
+              INTERSPEECH2021 <br />
               <a href="https://arxiv.org/abs/2104.02724">[arXiv]</a>
             </Typography>
           </Box>

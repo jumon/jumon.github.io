@@ -22,11 +22,14 @@ const About = () => {
       <Box display="flex" m={2}>
         <Typography variant="body1">
           <Box>
-            A first-year student at the{' '}
+            A second-year student at the{' '}
             <a href="http://www.i.kyoto-u.ac.jp/">
               Graduate School of Informatics, Kyoto University
             </a>
             .
+          </Box>
+          <Box mt={2}>
+            <a href="https://scholar.google.com/citations?user=onM70GMAAAAJ&hl=en&oi=ao">Google Scholar</a>, <a href="https://www.linkedin.com/in/jumon-nozaki-89363a188/">LinkedIn</a>
           </Box>
           <Box mt={2}>Email: jumon.nozaki[at]gmail.com</Box>
         </Typography>

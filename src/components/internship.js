@@ -26,7 +26,7 @@ const Internship = () => {
             </ListItemAvatar>
             <ListItemText
               primary="Amazon Japan"
-              secondary="February 2022 - March 2022. Software Development Engineer Intern."
+              secondary="February 2022 - March 2022. Software Development Engineering Internship."
             />
           </ListItem>
           <ListItem>
@@ -48,7 +48,7 @@ const Internship = () => {
             </ListItemAvatar>
             <ListItemText
               primary="Mercari, Inc."
-              secondary="August 2021 - September 2021. Software Engineer Internship at EdgeAI Team."
+              secondary="August 2021 - September 2021. Software Engineering Internship at EdgeAI Team."
             />
           </ListItem>
           <ListItem>
@@ -59,7 +59,7 @@ const Internship = () => {
             </ListItemAvatar>
             <ListItemText
               primary="Hacarus Inc."
-              secondary="October 2018 - December 2019. Anomaly Detection for images and time series data."
+              secondary="October 2018 - December 2019. Anomaly detection for images and time series data."
             />
           </ListItem>
         </List>

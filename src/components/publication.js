@@ -14,15 +14,15 @@ const Publication = () => {
         <Box mt={3} mb={3}>
           <Typography variant="subtitle1">
             会話音声から句読点付きテキストの End-to-End 認識 <br />
-            (An end-to-end model for conversational-speech-to-punctuated-text recognition)
+            (An end-to-end model for conversational-speech-to-punctuated-text recognition) <br />
+            <em>Best Paper Award for Young Researcher</em>
           </Typography>
           <Box m={1}>
             <Typography variant="body2" style={{ color: 'gray' }}>
               <u>Jumon Nozaki</u>,Tatsuya Kawahara, Kenkichi Ishizuka, and Taiichi Hashimoto
               <br />
               第84回情報処理学会全国大会 <br />
-              (The 84rd National Convention of IPSJ) <br />
-              Student Award
+              (The 84rd National Convention of IPSJ)
             </Typography>
           </Box>
         </Box>
